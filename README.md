@@ -1,30 +1,16 @@
-# React + TypeScript + Vite
+# Infinite Scroll Implementation Demo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a demo application that showcases the implementation of an infinite scroll feature for chat-like user interfaces. The app allows users to simulate a chat experience where messages are loaded dynamically as the user scrolls down, providing a smooth and seamless experience.
 
-Currently, two official plugins are available:
+### Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- <b>Continuous Loading<b>: Scroll through your chat content effortlessly, with new messages loading automatically as you reach the end of the current conversation.
+- <b>Easy Integration<b>: Follow the straightforward steps below to integrate infinite scrolling into your chat application.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To integrate infinite scrolling into your project, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Clone the Repository
+- Copy the relevant files and components into your project.
+- Customize the implementation according to your chat application's structure.
